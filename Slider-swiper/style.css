@@ -110,3 +110,17 @@ html,body {
     cursor: pointer;
     background-color: #7a956b!important;
 }
+
+/* Автоширина*/
+.image-slider .swiper-slide {
+    width: auto;
+}
+
+/* Мультирядность */
+.image-slider {
+    height: 700px;
+}
+.image-slider .swiper-slide {
+    height: calc((100%-30px) / 2);
+    overflow: hidden;
+}
