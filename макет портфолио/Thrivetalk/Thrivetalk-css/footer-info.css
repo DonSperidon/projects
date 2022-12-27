@@ -1,0 +1,35 @@
+.footerInfo {
+    display: flex;
+    width: 1440px;
+    background-color: white;
+}
+.footerInfo-containerLeft {
+    width: 570px;
+    height: 380px;
+    display: flex;
+    background-image: url(../Thrivetalk-Image/autumn-goodman-242825.jpg);
+}
+.footerInfo-containerRight {
+    display: flex;
+    width: 870px;
+    height: 380px;
+}
+.footerInfo-blog {
+    height: 220px;
+    margin: 100px 0px 75px 40px;
+}
+
+.footerInfo-blog h3 {
+    /* SOME INFO */
+    margin-bottom: 50px;
+    font-size: 14px;
+    line-height: 11px;
+    color: #22356F;
+}
+
+.footerInfo-blog p {
+/* Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula. */
+    font-size: 14px;
+    line-height: 23px;
+    color: rgba(34, 53, 111, 0.5);
+}

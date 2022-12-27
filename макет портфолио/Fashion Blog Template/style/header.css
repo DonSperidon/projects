@@ -1,0 +1,199 @@
+.header {
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10; */
+    background-color: white;
+}
+.header__container {
+    max-width: 1920px;
+    margin: 0 auto;
+    display: flex;
+    padding: 0px 80px;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100px;
+}
+.container {
+    max-width: 1790px; /* 1760 */
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.logo__text {
+    position: relative;
+    z-index: 5;
+    font-weight: 700;
+font-size: 25px;
+line-height: 33px;
+letter-spacing: 2.5px;
+color: #171717;
+}
+.logo__rectangle {
+    position: absolute;
+    bottom: 5px;
+    width: 125px;
+    height: 6px;
+    background: #C9A96E;
+    mix-blend-mode: normal;
+    opacity: 0.35;
+}
+
+.header__logo {
+
+    position: relative;
+    z-index: 5;
+}
+
+.header__menu {
+}
+.menu {
+
+}
+.menu__icon {
+    display: none;
+}
+.menu__body {
+}
+.menu__list {
+}
+.menu__list > li {
+    position: relative;
+    margin: 0px 0px 0px 20px;
+}
+.menu__link {
+    /* Home Recipes Article */
+font-family: 'PT Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+color: #171717;
+}
+.menu__link:hover{
+   color: #C9A96E; 
+}
+
+
+/* --------------------------- */
+
+body._touch .menu__list > li {
+    display: flex;
+    align-items: center;
+}
+body._touch .menu__link {
+    flex: 1 1 auto;
+}
+
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
+
+@media (min-width: 767px) {
+    .menu__list {
+        display: flex;
+        align-items: center;
+    }
+    .menu__list > li {
+        padding: 10px 0px; /* закрывает промежуток при открытии подменю */
+    }
+}
+@media (max-width: 767px) {
+    .header__logo, .menu__icon {
+        position: fixed;
+    }
+    .menu__icon {
+        top: 40px;
+        right: 20px;
+    }
+
+    .menu__icon {
+        z-index: 5;
+        display: block;
+        width: 30px;
+        height: 20px;
+        cursor: pointer;
+    }
+    .menu__icon span,
+    .menu__icon::before,
+    .menu__icon::after {
+        left: 0;
+        position: absolute;
+        height: 10%;
+        width: 100%;
+        transition: all 0.3s ease 0s;
+        background-color: black;
+    }
+    .menu__icon::before,
+    .menu__icon::after {
+        content: "";
+    }
+    .menu__icon::before {
+        top: 0;
+    }
+    .menu__icon::after {
+        bottom: 0;
+    }
+    .menu__icon span {
+        top: 50%;
+        transform: scale(1) translate(0px, -50%);
+    }
+    .menu__icon._active span{
+        transform: scale(0) translate(0px, -50%);
+    }
+    .menu__icon._active::before {
+        top: 50%;
+        transform: rotate(-45deg) translate(0px, -50%);
+    }
+    .menu__icon._active::after {
+        bottom: 50%;
+        transform: rotate(45deg) translate(0px, 50%);
+    }
+    .menu__body {
+        position: fixed;
+        top: 0;
+        left: -100%; /* 0 */
+        width: 100%;
+        height: 100%;
+        /* transform: translate(-100%, 0px); */
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 100px 30px 30px 30px;
+        transition: left 0.3s ease 0s; /* all*/
+        overflow: auto;
+    }
+    .menu__body._active {
+        /* transform: translate(0px, 0px); */
+        left: 0;
+    }
+    .menu__body::before {
+        content: "";
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        height: 100px;
+        background-color: #FFFFFF;
+        z-index: 2;
+    }
+    .menu__list {
+ 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 300px;
+    }
+
+
+    .menu__list > li {
+        flex-wrap: wrap;
+        margin: 0px 0px 30px 0px;
+    }
+    .menu__list > li:last-child {
+        margin-bottom: 0px;
+    }
+    .menu__link {
+        font-size: 2rem;
+    }
+
+}

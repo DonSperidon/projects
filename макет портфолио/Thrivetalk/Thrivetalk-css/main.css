@@ -1,0 +1,66 @@
+.main {
+    display: flex;
+}
+
+.main-containerLeft {
+    display: flex;
+    align-items: center;
+    width: 1110px;
+    height: 750px;
+}
+
+.main-containerRight {
+    position: relative;
+    display: flex;
+    background-color: white;
+    width: 330px;
+    height: 750px;
+}
+
+.main-rightPictures{
+    background: url(../Mask\ Group.svg);
+    position: absolute;
+    top: -140px;
+    right: 00px;
+    width: 550px;
+    height: 810px;
+}
+
+.main-txt{
+    display: flex;
+    flex-direction: column;
+    padding-left: 180px;
+}
+
+.main-txt h2{
+    font-size: 24px;
+    color: #62D0DF;
+}
+
+/* HELPING YOU THRIVE IN ALL AREAS OF LIFE */
+.Size48 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #22356F;
+}
+
+.Size24{
+    /* Our highly talented therapists can help you with a range of issues including relationships, sex, PTSD, depression, social anxiety, or even just caring for yourself more. */
+    font-size: 24px;
+    color: #22356F;
+}
+
+.main-button1{
+    background-color: #F9B640;
+    color: white;
+    width: 150px;
+    padding: 13.5px 0;
+    border: none;
+}
+
+.main-button2{
+    background-color: #F4F9E2;
+    color: #F9B640;
+    border: none;
+    padding-left: 25px;
+}
