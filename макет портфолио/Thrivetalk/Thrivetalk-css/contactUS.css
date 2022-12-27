@@ -1,0 +1,54 @@
+.contactUS {
+    display: flex;
+    background-color: #22356F;
+}
+        
+.contactUS-containerLeft {
+    display: flex;
+    width: 960px;
+    height: 800px;
+}
+
+.contactUS-txt {
+    margin-left: 180px;
+    margin-right: 200px;
+}
+
+.contactUS-txt h2{
+    /* CONTACT US */
+    margin-top: 100px;
+    font-size: 16px;
+    line-height: 12px;
+    color: #FFFFFF;
+}
+
+.contactUS-txt h3{
+    /* Ready. Set. Smile */
+    margin-top: 220px;
+    font-size: 64px;
+    line-height: 94px;
+    color: #FFFFFF;
+}
+
+.contactUS-txt p{
+    margin-top: 75px;
+    /* Take the free online assessment to see if you are a candidate and get started on your journey. */
+    font-size: 36px;
+    line-height: 53px;
+    color: #FFFFFF;
+}
+
+.contactUS-txt .text-blue {
+    margin-top: 75px;
+    /* GET HELP NOW */
+    font-size: 16px;
+    line-height: 23px;
+    color: #62D0DF;
+}
+
+.contactUS-containerRight {
+    display: flex;
+    width: 480px;
+    height: 800px;
+    background-image: url(../Thrivetalk-Image/charles-etoroma-390119.jpg);
+}

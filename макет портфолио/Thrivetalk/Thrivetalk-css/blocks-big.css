@@ -1,0 +1,40 @@
+.blocks-big {
+    width: 1440px;
+}
+.blockBig-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.blockBig {
+    width: 480px;
+    height: 480px;
+}
+.blockBig hr {
+    margin-top: 70px;
+    width: 340px;
+    color: #FFFFFF;
+}
+.blockBig p {
+    text-align: center;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+.blockBig:nth-child(1) {
+    background-color: #22356F;
+}
+.blockBig:nth-child(2) {
+    background-color: #0052C1;
+}
+.blockBig:nth-child(3) {
+    background-image: url(../Thrivetalk-Image/joanna-kosinska-340748.png);;
+}
+.blockBig:nth-child(4) {
+    background-color: #62D0DF;
+}
+.blockBig:nth-child(5) {
+    background-color: #DEE1FF;
+}
+.blockBig:nth-child(6) {
+    background-color: #8F00FF;
+}

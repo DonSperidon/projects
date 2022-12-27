@@ -1,0 +1,52 @@
+.know {
+    display: flex;
+    max-width: 1440px;
+    background-color: white;
+}
+.know-containerLeft {
+    display: flex;
+    width: 480px;
+    height: 800px;
+    background-image: url(../Thrivetalk-Image/christopher-campbell.jpg); 
+    padding: 0px;
+    margin: 0px;
+}
+.know-containerRight {
+    display: flex;
+    width: 960px;
+    height: 800px;  
+    padding: 0px;
+    margin: 0px;
+}
+.know-txt {
+    margin-left: 105px;
+    margin-right: 175px;
+}
+
+.know-txt h2{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    /* YOU SHOULD ALSO KNOW */
+    font-size: 16px;
+    line-height: 12px;
+    color: #22356F;
+}
+
+.know-txt p{
+    padding-top: 150px;
+    font-weight: bold;
+    /* MDD affects more ... */
+    font-size: 36px;
+    line-height: 53px;
+    color: #22356F;
+}
+
+.know-txt span{
+    color: #6CD3E1;
+}
+.know-txt .text-gold {
+    /* GET HELP NOW */
+    font-size: 16px;
+    line-height: 23px;
+    color: #FAB63E;
+}

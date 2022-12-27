@@ -1,0 +1,35 @@
+.blog {
+    display: flex;
+    width: 1440px;
+    background-color: white;
+}
+.blog-container {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.blog-medium {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 480px;
+    height: 240px;
+}
+
+.blog-medium h3{
+    /* Weight Loss */
+font-size: 28px;
+line-height: 33px;
+color: #22356F;
+margin-left: 100px;
+}
+
+.blog-medium p{
+    /* Nutritional Facts on ... */
+font-size: 16px;
+line-height: 25px;
+color: rgba(34, 53, 111, 0.5);
+margin-left: 100px;
+}
