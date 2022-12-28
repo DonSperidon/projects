@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="style/header.css">
     <link rel="stylesheet" href="style/hero.css">
     <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" href="style/post.css">
+    <link rel="stylesheet" href="style/pagination.css">
+    <link rel="stylesheet" href="style/footer-widget.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/adaptiv.css">
 
     <title>Fashion Blog Template</title>
 </head>
@@ -17,7 +22,7 @@
         <header class="header">
             <div class="header__container container">
                 <a href="" class="header__logo logo">
-                    <div class="logo__text">FASHION</div>
+                    <h1 class="logo__text">FASHION</h1>
                     <div class="logo__rectangle"></div>    
                 </a>
                 <div class="header__menu menu">
@@ -26,11 +31,11 @@
                     </div>
                     <nav class="menu__body">
                         <ul class="menu__list">
-                            <li><a data-goto=".page__section_1" href="#" class="menu__link">Home</a></li>
-                            <li><a data-goto=".page__section_2" href="#" class="menu__link">Recipes</a></li>
-                            <li><a data-goto=".page__section_3" href="#" class="menu__link">Article</a></li>
-                            <li><a data-goto=".page__section_3" href="#" class="menu__link">Contact</a></li>
-                            <li><a data-goto=".page__section_3" href="#" class="menu__link">Purchase</a></li>
+                            <li><a href="#" class="menu__link">Home</a></li>
+                            <li><a href="#" class="menu__link">Recipes</a></li>
+                            <li><a href="#" class="menu__link">Article</a></li>
+                            <li><a href="#" class="menu__link">Contact</a></li>
+                            <li><a href="#" class="menu__link">Purchase</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -38,130 +43,128 @@
         </header>
 
         <section class="hero">
-            <div class="container hero__container">
-                <h3 class="hero__title">Vehicle</h3>
+            <div class="hero_bg_effect"></div>
+            <div class="container hero-container">
+                <div class="hero__title">Vehicle</div>
                 <p class="hero__text">One of Saturn’s largest rings <br> may be newer than anyone</p>
-                <div class="hero__info">
-                    <p class="hero__info-date">June 6, 2019</p>
-                    <p class="hero__info-author">By Rickie Baroch</p>
-                    <p class="hero__info-comments">4 comments</p>
+                <div class="hero-info info-hero">
+                    <p class="info-hero__date">June 6, 2019</p>
+                    <p class="info-hero__author"><span>By</span> Rickie Baroch</p>
+                    <p class="info-hero__comments">4 comments</p>
                 </div>
             </div>
         </section>
 
         <section class="main">
-            <div class="container main__container">
-
-                <div class="posts">
-                    <div class="groupOne">
-                        <div class="post">
-                            <img src="image/Bitmap (1).jpg" alt="" class="post__image">
-                            <h3 class="post__title">Tourism</h3>
+            <div class="container main-container">
+                <div class="content">
+                    <div class="grid-container">
+                        <article class="post">
+                            <a href="#" class="post__image"><img src="image/Bitmap (1).jpg" alt=""></a>
+                            <div class="post__title">Tourism</div>
                             <p class="post__text">One of Saturn’s largest rings may be newer than anyone</p>
-                            <div class="post__info">
-                                <p class="post__info-date">June 6, 2019</p>
-                                <p class="post__info-author">By Rickie Baroch</p>
+                            <div class="post__info info-post">
+                                <p class="info-post__date">June 6, 2019</p>
+                                <p class="info-post__author"><span>By</span> Rickie Baroch</p>
                             </div>
-                        </div>                    
-                        <div class="post">
-                            <img src="image/Bitmap (2).jpg" alt="" class="post__image">
-                            <h3 class="post__title">Tourism</h3>
+                        </article>
+                        <article class="post">
+                            <a href="#" class="post__image"><img src="image/Bitmap (2).jpg" alt=""></a>
+                            <div class="post__title">Tourism</div>
                             <p class="post__text">One of Saturn’s largest rings may be newer than anyone</p>
-                            <div class="post__info">
-                                <p class="post__info-date">June 6, 2019</p>
-                                <p class="post__info-author">By Rickie Baroch</p>
+                            <div class="post__info info-post">
+                                <p class="info-post__date">June 6, 2019</p>
+                                <p class="info-post__author"><span>By</span> Rickie Baroch</p>
                             </div>
-                        </div>
-                        <div class="post">
-                            <img src="image/Bitmap (3).jpg" alt="" class="post__image">
-                            <h3 class="post__title">Tourism</h3>
+                        </article>
+                        <article class="post">
+                            <a href="#" class="post__image"><img src="image/Bitmap (3).jpg" alt=""></a>
+                            <div class="post__title">Tourism</div>
                             <p class="post__text">One of Saturn’s largest rings may be newer than anyone</p>
-                            <div class="post__info">
-                                <p class="post__info-date">June 6, 2019</p>
-                                <p class="post__info-author">By Rickie Baroch</p>
+                            <div class="post__info info-post">
+                                <p class="info-post__date">June 6, 2019</p>
+                                <p class="info-post__author"><span>By</span> Rickie Baroch</p>
                             </div>
-                        </div>
-                        <div class="post">
-                            <img src="image/Bitmap (4).jpg" alt="" class="post__image">
-                            <h3 class="post__title">Tourism</h3>
+                        </article>
+                        <article class="post">
+                            <a href="#" class="post__image"><img src="image/Bitmap (4).jpg" alt=""></a>
+                            <div class="post__title">Tourism</div>
                             <p class="post__text">One of Saturn’s largest rings may be newer than anyone</p>
-                            <div class="post__info">
-                                <p class="post__info-date">June 6, 2019</p>
-                                <p class="post__info-author">By Rickie Baroch</p>
+                            <div class="post__info info-post">
+                                <p class="info-post__date">June 6, 2019</p>
+                                <p class="info-post__author"><span>By</span> Rickie Baroch</p>
                             </div>
-                        </div>
-                        <div class="post">
-                            <img src="image/Bitmap (5).jpg" alt="" class="post__image">
-                            <h3 class="post__title">Tourism</h3>
+                        </article>  
+                        <article class="post">
+                            <a href="#" class="post__image"><img src="image/Bitmap (5).jpg" alt=""></a>
+                            <div class="post__title">Tourism</div>
                             <p class="post__text">One of Saturn’s largest rings may be newer than anyone</p>
-                            <div class="post__info">
-                                <p class="post__info-date">June 6, 2019</p>
-                                <p class="post__info-author">By Rickie Baroch</p>
+                            <div class="post__info info-post">
+                                <p class="info-post__date">June 6, 2019</p>
+                                <p class="info-post__author"><span>By</span> Rickie Baroch</p>
                             </div>
-                        </div>
-                        <div class="post">
-                            <img src="image/Bitmap (6).jpg" alt="" class="post__image">
-                            <h3 class="post__title">Tourism</h3>
+                        </article>
+                        <article class="post">
+                            <a href="#" class="post__image"><img src="image/Bitmap (6).jpg" alt=""></a>
+                            <div class="post__title">Tourism</div>
                             <p class="post__text">One of Saturn’s largest rings may be newer than anyone</p>
-                            <div class="post__info">
-                                <p class="post__info-date">June 6, 2019</p>
-                                <p class="post__info-author">By Rickie Baroch</p>
+                            <div class="post__info info-post">
+                                <p class="info-post__date">June 6, 2019</p>
+                                <p class="info-post__author"><span>By</span> Rickie Baroch</p>
                             </div>
-                        </div>
+                        </article>   
+                        
+                        <article class="post post-medium">
+                            <a href="#" ><img src="image/Bitmap (21).jpg" alt=""></a>
+                            <div class="post__title post-medium__title">Summer</div>
+                            <p class="post__text post-medium__text">One of Saturn’s largest rings may be newer than anyone</p>
+                            <div class="post__info post-medium__info info-post">
+                                <p class="info-post__date">June 6, 2019</p>
+                                <p class="info-post__author">By Rickie Baroch</p>
+                                <p class="info-post__comments">6 comments</p>
+                            </div>
+                            <p class="post-medium__desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem</p>
+                        </article>
+                        
+                        <article class="post">
+                            <a href="#" class="post__image"><img src="image/Bitmap (31).jpg" alt=""></a>
+                            <div class="post__title">Autumn</div>
+                            <p class="post__text">One of Saturn’s largest rings may be newer than anyone</p>
+                            <div class="post__info info-post">
+                                <p class="info-post__date">June 6, 2019</p>
+                                <p class="info-post__author"><span>By</span> Rickie Baroch</p>
+                            </div>
+                        </article>
+                        <article class="post">
+                            <a href="#" class="post__image"><img src="image/Bitmap (32).jpg" alt=""></a>
+                            <div class="post__title">Clothes</div>
+                            <p class="post__text">One of Saturn’s largest rings may be newer than anyone</p>
+                            <div class="post__info info-post">
+                                <p class="info-post__date">June 6, 2019</p>
+                                <p class="info-post__author"><span>By</span> Rickie Baroch</p>
+                            </div>
+                        </article> 
+                        <article class="post">
+                            <a href="#" class="post__image"><img src="image/Bitmap (33).jpg" alt=""></a>
+                            <div class="post__title">Summer</div>
+                            <p class="post__text">One of Saturn’s largest rings may be newer than anyone</p>
+                            <div class="post__info info-post">
+                                <p class="info-post__date">June 6, 2019</p>
+                                <p class="info-post__author"><span>By</span> Rickie Baroch</p>
+                            </div>
+                        </article> 
+                        <article class="post">
+                            <a href="#" class="post__image"><img src="image/Bitmap (34).jpg" alt=""></a>
+                            <div class="post__title">Summer</div>
+                            <p class="post__text">One of Saturn’s largest rings may be newer than anyone</p>
+                            <div class="post__info info-post">
+                                <p class="info-post__date">June 6, 2019</p>
+                                <p class="info-post__author"><span>By</span> Rickie Baroch</p>
+                            </div>
+                        </article> 
                     </div>
 
-                    <div class="groupTwo">
-                        <div class="post groupTwo__post">
-                            <img src="image/Bitmap (21).jpg" alt="" class="groupTwo__post__image">
-                            <h3 class="post__title groupTwo__title">Summer</h3>
-                            <p class="post__text groupTwo__text">One of Saturn’s largest rings may be newer than anyone</p>
-                            <div class="post__info groupTwo_info">
-                                <p class="post__info-date">June 6, 2019</p>
-                                <p class="post__info-author">By Rickie Baroch</p>
-                                <p class="groupTwo__info-comments">6 comments</p>
-                            </div>
-                            <p class="groupTwo__text2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem</p>
-                        </div>
-                    </div>
-                    <div class="groupOne">
-                        <div class="post">
-                            <img src="image/Bitmap (31).jpg" alt="" class="post__image">
-                            <h3 class="post__title">Autumn</h3>
-                            <p class="post__text">One of Saturn’s largest rings may be newer than anyone</p>
-                            <div class="post__info">
-                                <p class="post__info-date">June 6, 2019</p>
-                                <p class="post__info-author">By Rickie Baroch</p>
-                            </div>
-                        </div>
-                        <div class="post">
-                            <img src="image/Bitmap (32).jpg" alt="" class="post__image">
-                            <h3 class="post__title">clothes</h3>
-                            <p class="post__text">One of Saturn’s largest rings may be newer than anyone</p>
-                            <div class="post__info">
-                                <p class="post__info-date">June 6, 2019</p>
-                                <p class="post__info-author">By Rickie Baroch</p>
-                            </div>
-                        </div>
-                        <div class="post">
-                            <img src="image/Bitmap (33).jpg" alt="" class="post__image">
-                            <h3 class="post__title">summer</h3>
-                            <p class="post__text">One of Saturn’s largest rings may be newer than anyone</p>
-                            <div class="post__info">
-                                <p class="post__info-date">June 6, 2019</p>
-                                <p class="post__info-author">By Rickie Baroch</p>
-                            </div>
-                        </div>
-                        <div class="post">
-                            <img src="image/Bitmap (34).jpg" alt="" class="post__image">
-                            <h3 class="post__title">summer</h3>
-                            <p class="post__text">One of Saturn’s largest rings may be newer than anyone</p>
-                            <div class="post__info">
-                                <p class="post__info-date">June 6, 2019</p>
-                                <p class="post__info-author">By Rickie Baroch</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="pagination__container">
+                    <div class="pagination-container">
                         <div class="pagination">
                             <img src="./image/sourse/arrow.svg" alt="">
                             <a href="" class="pagination-btn__previous">OLDER POST</a>
@@ -177,174 +180,170 @@
                 </div>
 
                 <div class="sidebar">
-                    <div class="sidebar-group">
-                        <div class="sidebar-group__header">About the author</div>
-                        <div class="container sidebar__container">
-                            <img src="image/Sidebar 1.jpg" alt="" class="sidebar__image">
-                            <h3 class="sidebar__title">Kate Willems</h3>
-                            <p class="sidebar__info">Food & cooking bloger</p>
-                            <p class="sidebar__text">Hi, I'm Sonia. Cooking is the way I express my creative side to the world. Welcome to my Kitchen Corner on…</p>
-                            <div class="sidebar__line"></div>
-                            <div class="sidebar__button">Continue Reading</div>
+                    <div class="group">
+                        <div class="group__caption">About the author</div>
+                        <div class="author">
+                            <img class="author__image" src="image/Sidebar 1.jpg" alt="">
+                            <div class="author__title">Kate Willems</div>
+                            <p class="author__info">Food & cooking bloger</p>
+                            <p class="author__text">Hi, I'm Sonia. Cooking is the way I express my creative side to the world. Welcome to my Kitchen Corner on…</p>
+                            <div class="author__button">Continue Reading</div>
                         </div>
                     </div>
-                    <div class="sidebar-group">
-                        <div class="sidebar-group__header">Featured posts</div>
-                        <div class="container sidebar__container sidebar__container2">
-                            <img src="image/Sidebar 21.jpg" alt="" class="sidebar__image">
-                            <h3 class="post__title">jeans</h3>
-                            <p class="post__text post__sidebar-text">One of Saturn’s largest rings <br> may be newer than anyone</p>
-                            <div class="post__info">
-                                <p class="post__info-date">June 6, 2019</p>
-                                <p class="post__info-author">By Rickie Baroch</p>
-                                <p class="post__info-comments">4 comments</p>
+                    <div class="group">
+                        <div class="group__caption">Featured posts</div>
+                        <article class="post sidebar-post">
+                            <a href="#" class="post__image"><img src="image/Sidebar 21.jpg" alt=""></a>
+                            <div class="post__title">Jeans</div>
+                            <p class="post__text sidebar-post__text">One of Saturn’s largest rings may be newer than anyone</p>
+                            <div class="post__info info-post">
+                                <p class="info-post__date">June 6, 2019</p>
+                                <p class="info-post__author"><span>By</span> Rickie Baroch</p>
                             </div>
-                        </div>
-                        <div class="container sidebar__container sidebar__container2">
-                            <img src="image/Sidebar 22.jpg" alt="" class="sidebar__image">
-                            <h3 class="post__title">City</h3>
-                            <p class="post__text post__sidebar-text">One of Saturn’s largest rings <br> may be newer than anyone</p>
-                            <div class="post__info">
-                                <p class="post__info-date">June 6, 2019</p>
-                                <p class="post__info-author">By Rickie Baroch</p>
-                                <p class="post__info-comments">4 comments</p>
+                        </article>
+                        <article class="post sidebar-post">
+                            <a href="#" class="post__image"><img src="image/Sidebar 22.jpg" alt=""></a>
+                            <div class="post__title">City</div>
+                            <p class="post__text sidebar-post__text">One of Saturn’s largest rings may be newer than anyone</p>
+                            <div class="post__info info-post">
+                                <p class="info-post__date">June 6, 2019</p>
+                                <p class="info-post__author"><span>By</span> Rickie Baroch</p>
                             </div>
+                        </article>
+                        <article class="post sidebar-post">
+                            <a href="#" class="post__image"><img src="image/Sidebar 23.jpg" alt=""></a>
+                            <div class="post__title">Photography</div>
+                            <p class="post__text sidebar-post__text">One of Saturn’s largest rings may be newer than anyone</p>
+                            <div class="post__info info-post">
+                                <p class="info-post__date">June 6, 2019</p>
+                                <p class="info-post__author"><span>By</span> Rickie Baroch</p>
+                            </div>
+                        </article>  
+                    </div>
+
+                    <div class="group">
+                        <div class="group__caption">Categories</div>
+                        <div class="categories">
+                                <div class="categories-list">
+                                    <div class="categories-list__header">Fashion</div>
+                                    <div class="categories-list__number">(23)</div>
+                                </div>
+                                <div class="categories-list">
+                                    <div class="categories-list__header">Style & clothes</div>
+                                    <div class="categories-list__number">(7)</div>
+                                </div>
+                                <div class="categories-list">
+                                    <div class="categories-list__header">Minimalism</div>
+                                    <div class="categories-list__number">(16)</div>
+                                </div>
+                                <div class="categories-list">
+                                    <div class="categories-list__header">Black & White</div>
+                                    <div class="categories-list__number">(5)</div>
+                                </div>
+                                <div class="categories-list">
+                                    <div class="categories-list__header">Modern clothes</div>
+                                    <div class="categories-list__number">(12)</div>
+                                </div>
                         </div>
-                        <div class="container sidebar__container">
-                            <img src="image/Sidebar 23.jpg" alt="" class="sidebar__image">
-                            <h3 class="post__title">Photography</h3>
-                            <p class="post__text post__sidebar-text">One of Saturn’s largest rings <br> may be newer than anyone</p>
-                            <div class="post__info">
-                                <p class="post__info-date">June 6, 2019</p>
-                                <p class="post__info-author">By Rickie Baroch</p>
-                                <p class="post__info-comments">4 comments</p>
+                    </div>
+
+                    <div class="group">
+                        <div class="group__caption">Social media</div>
+                        <div class="social">
+                            <div class="social-block">
+                                <div class="social-block__image">
+                                    <img src="image/social media/1fb.svg" alt="">
+                                </div>
+                                <div class="social-block__text">32k <br> likes</div>
+                            </div>
+                            <div class="social-block">
+                                <div class="social-block__image">
+                                    <img src="image/social media/2pinterest.svg" alt="">
+                                </div>
+                                <div class="social-block__text">814 <br> followers</div>
+                            </div>
+                            <div class="social-block">
+                                <div class="social-block__image">
+                                    <img src="image/social media/3vimeo.svg" alt="">
+                                </div>
+                                <div class="social-block__text">165 <br> followers</div>
+                            </div>
+                            <div class="social-block">
+                                <div class="social-block__image">
+                                    <img src="image/social media/4dribble.svg" alt="">
+                                </div>
+                                <div class="social-block__text">6k <br> followers</div>
+                            </div>
+                            <div class="social-block">
+                                <div class="social-block__image">
+                                    <img src="image/social media/5twitter.svg" alt="">
+                                </div>
+                                <div class="social-block__text">130k <br> followers</div>
+                            </div>
+                            <div class="social-block">
+                                <div class="social-block__image">
+                                    <img src="image/social media/6behance.svg" alt="">
+                                </div>
+                                <div class="social-block__text">37k <br> followers</div>
+                            </div>
+                            <div class="social-block">
+                                <div class="social-block__image">
+                                    <img src="image/social media/7instagram.svg" alt="">
+                                </div>
+                                <div class="social-block__text">854k <br> followers</div>
+                            </div>
+                            <div class="social-block">
+                                <div class="social-block__image">
+                                    <img src="image/social media/8youtube.svg" alt="">
+                                </div>
+                                <div class="social-block__text">52k <br> subscribers</div>
+                            </div>
+                            <div class="social-block">
+                                <div class="social-block__image">
+                                    <img src="image/social media/9google+.svg" alt="">
+                                </div>
+                                <div class="social-block__text">642 <br> followers</div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="sidebar-group">
-                        <div class="sidebar-categories">
-                            <div class="sidebar-categories__title sidebar-group__header">Categories</div>
-                            <div class="sidebar-categories__lists">
-                                <div class="sidebar-categories__list">
-                                    <div class="sidebar-categories__list-header">Fashion</div>
-                                    <div class="sidebar-categories__list-number">(23)</div>
-                                </div>
-                                <div class="sidebar-categories__list">
-                                    <div class="sidebar-categories__list-header">Style & clothes</div>
-                                    <div class="sidebar-categories__list-number">(7)</div>
-                                </div>
-                                <div class="sidebar-categories__list">
-                                    <div class="sidebar-categories__list-header">Minimalism</div>
-                                    <div class="sidebar-categories__list-number">(16)</div>
-                                </div>
-                                <div class="sidebar-categories__list">
-                                    <div class="sidebar-categories__list-header">Black & White</div>
-                                    <div class="sidebar-categories__list-number">(5)</div>
-                                </div>
-                                <div class="sidebar-categories__list">
-                                    <div class="sidebar-categories__list-header">Modern clothes</div>
-                                    <div class="sidebar-categories__list-number">(12)</div>
-                                </div>
-                            </div>
+                    <div class="group">
+                        <div class="group__caption">Tags</div>
+                        <div class="tags">
+                            <div class="tags-subject">Business</div>
+                            <div class="tags-subject">Freelance</div>
+                            <div class="tags-subject">Money</div>
+                            <div class="tags-subject">Experience</div>
+                            <div class="tags-subject">Lifestyle</div>
+                            <div class="tags-subject">SEO</div>
+                            <div class="tags-subject">Wordpress</div>
+                            <div class="tags-subject">Marketing</div>
+                            <div class="tags-subject">UX</div>
+                            <div class="tags-subject">Modern</div>
+                            <div class="tags-subject">Success</div>
+                            <div class="tags-subject">Nature</div>
                         </div>
                     </div>
-                    <div class="sidebar-group">
-                        <div class="sidebar-socialMedia">
-                            <div class="sidebar-socialMedia__title sidebar-group__header">Social media</div>
-                            <div class="sidebar-socialMedia__body">
-                                <div class="sidebar-socialMedia__block">
-                                    <div class="sidebar-socialMedia__block-img">
-                                        <img src="image/social media/1fb.svg" alt="">
-                                    </div>
-                                    <div class="sidebar-socialMedia__block-text">32k <br> likes</div>
-                                </div>
-                                <div class="sidebar-socialMedia__block">
-                                    <div class="sidebar-socialMedia__block-img">
-                                        <img src="image/social media/2pinterest.svg" alt="">
-                                    </div>
-                                    <div class="sidebar-socialMedia__block-text">814 <br> followers</div>
-                                </div>
-                                <div class="sidebar-socialMedia__block">
-                                    <div class="sidebar-socialMedia__block-img">
-                                        <img src="image/social media/3vimeo.svg" alt="">
-                                    </div>
-                                    <div class="sidebar-socialMedia__block-text">165 <br> followers</div>
-                                </div>
-                                <div class="sidebar-socialMedia__block">
-                                    <div class="sidebar-socialMedia__block-img">
-                                        <img src="image/social media/4dribble.svg" alt="">
-                                    </div>
-                                    <div class="sidebar-socialMedia__block-text">6k <br> followers</div>
-                                </div>
-                                <div class="sidebar-socialMedia__block">
-                                    <div class="sidebar-socialMedia__block-img">
-                                        <img src="image/social media/5twitter.svg" alt="">
-                                    </div>
-                                    <div class="sidebar-socialMedia__block-text">130k <br> followers</div>
-                                </div>
-                                <div class="sidebar-socialMedia__block">
-                                    <div class="sidebar-socialMedia__block-img">
-                                        <img src="image/social media/6behance.svg" alt="">
-                                    </div>
-                                    <div class="sidebar-socialMedia__block-text">37k <br> followers</div>
-                                </div>
-                                <div class="sidebar-socialMedia__block">
-                                    <div class="sidebar-socialMedia__block-img">
-                                        <img src="image/social media/7instagram.svg" alt="">
-                                    </div>
-                                    <div class="sidebar-socialMedia__block-text">854k <br> followers</div>
-                                </div>
-                                <div class="sidebar-socialMedia__block">
-                                    <div class="sidebar-socialMedia__block-img">
-                                        <img src="image/social media/8youtube.svg" alt="">
-                                    </div>
-                                    <div class="sidebar-socialMedia__block-text">52k <br> subscribers</div>
-                                </div>
-                                <div class="sidebar-socialMedia__block">
-                                    <div class="sidebar-socialMedia__block-img">
-                                        <img src="image/social media/9google+.svg" alt="">
-                                    </div>
-                                    <div class="sidebar-socialMedia__block-text">642 <br> followers</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="sidebar-group">
-                        <div class="sidebar-tags">
-                            <div class="sidebar-tags__title sidebar-group__header">Tags</div>
-                            <div class="sidebar-socialMedia__body sidebar-tags__body">
-                                <div class="sidebar-tags__body-tag">Business</div>
-                                <div class="sidebar-tags__body-tag">Freelance</div>
-                                <div class="sidebar-tags__body-tag">Money</div>
-                                <div class="sidebar-tags__body-tag">Experience</div>
-                                <div class="sidebar-tags__body-tag">Lifestyle</div>
-                                <div class="sidebar-tags__body-tag">SEO</div>
-                                <div class="sidebar-tags__body-tag">Wordpress</div>
-                                <div class="sidebar-tags__body-tag">Marketing</div>
-                                <div class="sidebar-tags__body-tag">UX</div>
-                                <div class="sidebar-tags__body-tag">Modern</div>
-                                <div class="sidebar-tags__body-tag">Success</div>
-                                <div class="sidebar-tags__body-tag">Nature</div>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
  
         </section>
-        <section class="widget__footer">
-                <h3 class="widget__footer-title">Follow our @instagram_name</h3>
-                <div class="widget__footer__images">
-                    <img class="widget__footer__image" src="./image/insta 1.jpg" alt="">
-                    <img class="widget__footer__image" src="./image/insta 2.jpg" alt="">
-                    <img class="widget__footer__image" src="./image/insta 3.jpg" alt="">
-                    <img class="widget__footer__image" src="./image/insta 4.jpg" alt="">
-                    <img class="widget__footer__image" src="./image/insta 5.jpg" alt="">
-                    <img class="widget__footer__image" src="./image/insta 6.jpg" alt="">
+        <section class="widget">
+                <h3 class="widget__title">Follow our @instagram_name</h3>
+                <div class="widget-block">
+                    <img class="widget-block__image" src="./image/insta 1.jpg" alt="">
+                    <img class="widget-block__image" src="./image/insta 2.jpg" alt="">
+                    <img class="widget-block__image" src="./image/insta 3.jpg" alt="">
+                    <img class="widget-block__image" src="./image/insta 4.jpg" alt="">
+                    <img class="widget-block__image" src="./image/insta 5.jpg" alt="">
+                    <img class="widget-block__image" src="./image/insta 6.jpg" alt="">
                 </div>
         </section>
         <section class="footer">
-            <div class="footer__title header__logo">FASHION</div>
+            <a href="" class="header__logo logo">
+                <h1 class="logo__text">FASHION</h1>
+                <div class="logo__rectangle"></div>    
+            </a>
             <nav class="footer__body">
                 <ul class="footer__list menu__list">
                     <li><a data-goto=".page__section_1" href="#" class="menu__link">Home</a></li>

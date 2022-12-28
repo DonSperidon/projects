@@ -7,27 +7,25 @@
     background-color: white;
 }
 .header__container {
-    max-width: 1920px;
-    margin: 0 auto;
+    max-width: 1790px; /* 1760 */
     display: flex;
     padding: 0px 80px;
     align-items: center;
     justify-content: space-between;
     min-height: 100px;
 }
-.container {
-    max-width: 1790px; /* 1760 */
-    margin: 0 auto;
+.container {    
     padding: 0 15px;
+    margin: 0 auto;
 }
 .logo__text {
     position: relative;
     z-index: 5;
     font-weight: 700;
-font-size: 25px;
-line-height: 33px;
-letter-spacing: 2.5px;
-color: #171717;
+    font-size: 25px;
+    line-height: 33px;
+    letter-spacing: 2.5px;
+    color: #171717;
 }
 .logo__rectangle {
     position: absolute;
@@ -40,7 +38,6 @@ color: #171717;
 }
 
 .header__logo {
-
     position: relative;
     z-index: 5;
 }
@@ -99,8 +96,9 @@ body._touch .menu__link {
     }
 }
 @media (max-width: 767px) {
-    .header__logo, .menu__icon {
+    .header__logo, .menu__icon,.header {
         position: fixed;
+        z-index: 15;
     }
     .menu__icon {
         top: 40px;

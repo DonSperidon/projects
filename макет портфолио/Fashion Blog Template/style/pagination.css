@@ -1,0 +1,41 @@
+.pagination-container {
+    max-width: 770px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.pagination {
+    width: 510px;
+    height: 50px;
+    border: 1px solid #E5E5E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pagination a{
+    font-family: 'HK Grotesk';
+    font-size: 14px;
+    line-height: 16px;
+    color: #171717;
+    margin: 0 20px;
+}
+.pagination a:hover{
+    color: #A2A2A2;
+}
+.pagination a:nth-child(2),
+.pagination a:nth-last-child(2){
+    margin: 0 10px;
+}
+.pagination img {
+    width: 7px;
+    height: 10px;
+}
+.pagination img:nth-child(9) {
+    rotate: 180deg;
+}
+.pagination-btn__previous {
+}
+.pagination-btn__next {
+}
