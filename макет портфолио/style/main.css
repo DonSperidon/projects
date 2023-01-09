@@ -1,0 +1,33 @@
+
+.main {
+    padding-bottom: 104px;
+}
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+.content__title {
+    font-size: 47px;
+    line-height: 59px;
+}
+.content__text {
+    line-height: 22px;
+}
+.content__button {
+}
+
+.lang {
+    color: #000000;
+    transform: rotate(-90deg);
+}
+.lang a {
+    font-family:'Gilroy-Bold';
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+}
+.lang a.active,.lang a:hover {
+    color: #000000;
+}

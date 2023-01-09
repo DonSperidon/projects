@@ -1,0 +1,20 @@
+.about {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-content {
+    max-width: 943px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 160px;
+}
+.content__title {
+}
+.content__text {
+    margin: 16px auto;
+}
